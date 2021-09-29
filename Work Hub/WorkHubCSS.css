@@ -1,0 +1,51 @@
+* {box-sizing: border-box;}
+
+body { background: lightblue;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+
+}
+
+h1 { font-size: 25px;
+  color: white;
+  font-style: bold;
+  text-align: center;
+}
+
+a { display: inline-block;
+color: white;
+font-style: italic;
+font-style: bold;
+}
+
+p1 { outline-style: groove;
+  margin-left:auto;
+  margin-right: auto;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+img { display : block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.sidebar { height: 600px;
+width: 200px;
+top: 0;
+right: 0;
+position: fixed;
+background-color: red;
+padding-left: 40px;
+}
+
+.sidebar2 { height: 600px;
+width: 200px;
+top: 0;
+left: 0;
+position: fixed;
+background-image: url("whiteArrowBottomSidebar.png");
+background-size: 100% 100%;
+padding-right: 40px;
+}
